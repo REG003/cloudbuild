@@ -1,0 +1,136 @@
+diff file1 file2 --> to differntiate 2 files
+diff -u file1 file2 -->difference in another format
+wdiff--> shows the words that are changed
+diff -u file1 file2 > change.diff --> to store the changes in a file called change
+patch filename < change.diff --> to insert the chnages in change.diff to file
+cp--> to copy
+git --version --> to check the version
+
+Toset the mail and name
+==========================
+git config --global user.email "timcj029@gmail.com
+git config --global user.name "Tim Joseph" 
+
+git init --> to initialize
+git clone --> To clone
+mkdir name --> to make directory
+cd name --> change dir
+
+ls equivalent in windows is dir--> ls won't work in windows
+cp equivalent is copy
+
+The git directory contains all the changes and their history and the working tree contains the current versions of the files.
+
+git status --> shows the status
+
+git add--> to add the file to directory
+
+git commit --> to commit need to go inside the file and add comment
+git commit -m  'Add the comment'--> commit without going inside
+git config -l --> current configurstion
+chmod +x all_checks.py --> to make a file executable
+
+Once the file is changed use the add function to add it and the commit function to commit
+
+git add all_checks.py --> make the file trackable
+git commit -m  'Add the comment'
+
+git log --> history of the commit
+
+vi filename--> to go inside file
+ESC + :wq--> save and exit
+
+
+git commit -a -m "comments" --> short cut to stage any chnages to tracked files and commit them in one step
+
+git log -p --> shows the history of changes (p means patch)
+
+git show <log_id>--> shows the changes (log_id can be found by the command git log)
+
+git log --stat --> shows the status of changes
+
+git rm  --> to delete the file
+
+git mv <old filename> <new filename> --> to rename the file
+
+git checkout <filename> --> for reverting the changes beore staging
+
+git reset --> for reverting after staging
+
+git commit --amend --> amend the previous commit(only private commit, don't do on public or shared)
+
+git revert HEAD --> to revert the previous commit
+
+git branch--> list out the master and branch
+
+creating a brach and switching to branch
+========================================
+1.git branch <branchname> --> to crete a branch
+2.git checkout <brachname>
+3.git branch --> (now the * will be at the brach level)
+
+git checkout -b <new branch> --> create and check out the new branch in a single line
+
+git branch -d <brachname> to delete the brach
+
+git branch -D <brachname> to delete the brach if the changes are bit merged
+
+git merge <branchname> --> merges branch to master
+
+git merge <branch> 
+
+Merge joins branches together. 
+
+git merge --abort
+
+If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action.
+
+git log --graph --oneline
+
+This shows a summarized view of the commit history for a repo.
+
+git hub
+------------
+ git clone URL
+
+Git clone is used to clone a remote repository into a local workspace
+
+git push
+
+Git push is used to push commits from your local repo to a remote repo
+
+git pull
+
+Git pull is used to fetch the newest updates from a remote repository
+
+git fetch --> fetches the data, git pull--> fetch and merge the date
+
+git remote 
+
+Lists remote repos
+
+git remote -v
+
+List remote repos verbosely
+
+git remote show <name>
+
+Describes a single remote repo
+
+git remote update
+
+Fetches the most up-to-date objects
+
+git fetch
+
+Downloads specific objects
+
+git branch -r
+
+Lists remote branches; can be combined with other branch arguments to manage remote branches
+
+
+
+
+
+
