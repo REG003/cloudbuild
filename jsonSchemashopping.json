@@ -1,0 +1,86 @@
+{
+    "BigQuery Schema": [
+    {
+        "name": "Name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Categories",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "Address",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "City",
+        "type": "NUMERIC"
+    },
+    {
+        "name": "State",
+        "type": "BOOLEAN"
+    },
+    {
+        "name": "PostCode",
+        "type": "INTEGER"
+    },
+	{
+        "name": "Phone",
+        "type": "STRING"
+    },
+	{
+        "name": "Website",
+        "type": "STRING"
+    },
+	{
+        "name": "Email",
+        "type": "STRING"
+    },
+	{
+        "name": "Fax",
+        "type": "STRING"
+    },
+	{
+        "name": "Latitude",
+        "type": "FLOAT"
+    },
+	{
+        "name": "Longitude",
+        "type": "FLOAT"
+    },
+	{
+        "name": "Employees",
+        "type": "STRING"
+    },
+	{
+        "name": "Established",
+        "type": "STRING"
+    },
+	{
+        "name": "ABNStatus",
+        "type": "STRING"
+    },
+	{
+        "name": "ABN",
+        "type": "STRING"
+    },
+	{
+        "name": "ABNName",
+        "type": "STRING"
+    },
+	{
+        "name": "Accuracy",
+        "type": "STRING"
+    },
+	{
+        "name": "ABN2",
+        "type": "STRING"
+    },
+	{
+        "name": "ACN",
+        "type": "STRING"
+    }]
+}
